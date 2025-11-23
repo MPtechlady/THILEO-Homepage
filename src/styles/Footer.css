@@ -1,0 +1,9 @@
+a:hover svg {
+  color: #ff6f91 !important;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #f9a825; /* golden highlight */
+}
