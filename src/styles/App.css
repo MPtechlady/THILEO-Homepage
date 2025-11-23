@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== Categories Section ===== */
+.categories-scroll {
+    white-space: nowrap;
+}
+  
+.categories-scroll::-webkit-scrollbar {
+    display: none; /* hides scroll bar for WebKit browsers */
+}
+  
+.category-link:hover {
+    background-color: #fadddd; /* change to your hover bg color */
+    transition: background 0.3s ease;
+}
+
+.active-link {
+    background-color: #92ff92; /* Choose your active color */    
+    color: white; /* Change text color */
+    font-weight: bold; /* Optional: highlight the active link */
+}
+
+/* #fccbcb */
+/* ===== Carousel Section ===== */
+.custom-carousel {
+    max-height: 500px; /* or any height you prefer */
+    overflow: hidden;    
+}
+  
+.carousel-slide img {
+    /* width: 100%; */
+    height: 40vh;
+    object-fit: contain; /* Crops without stretching */
+    display: block;
+    margin: 0 auto;
+    /*object-position: center; /* Focuses center area */
+    /* background-color: #000; /* or any matching background */
+    /* border-radius: 12px; /* Optional: keeps your rounded style */
+}
+  
+.carousel-bg-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #defddc; /* or use background-image: url(...) with blur or gradient */
+}
+
+.carousel-wrapper {
+    width: 100%;
+    max-width: 100vw;
+}
+
+/* Responsive full width for small screens */
+@media (max-width: 768px) {
+    .carousel-wrapper {
+      max-width: 100%;
+    }
+}
+
+/* ===== Highlights Section ===== */
+
+
+/* ===== Products Section ===== */
+
+/* ===== Updates Section ===== */
+
+/* ===== Blogging Section ===== */
+
+/* ===== Testimonial Section ===== */
+/* .testimonial {
+    background-color: #fff5f8;
+}
+   */
+/* ===== CTA Section ===== */
+.cta-bar {
+  background-color: #fcdbdb;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-bar:hover {
+  background-color: #f8caca;
+}
