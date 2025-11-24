@@ -1,0 +1,14 @@
+.blogging-section {
+  background-color: #defddc;
+  color: #094b00;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
