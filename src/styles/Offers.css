@@ -1,0 +1,28 @@
+.offers-section {
+  background-color: #fff5f8;
+}
+
+.offer-card {
+  height: 180px;
+  position: relative;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.offer-card:hover {
+  transform: scale(1.05);
+}
+
+.offer-card img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.offer-overlay {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
