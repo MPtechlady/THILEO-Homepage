@@ -1,0 +1,45 @@
+.card-hover {
+  position: relative;
+  height: 200px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.card-hover-icon {
+  font-size: 48px;
+  color: #198754;
+  margin-bottom: 0.5rem;
+}
+
+.card-hover-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.card-hover-desc {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card-hover:hover .card-hover-desc {
+  opacity: 1;
+  max-height: 200px;
+  margin-top: 0.5rem;
+}
