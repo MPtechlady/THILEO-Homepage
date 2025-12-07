@@ -1,0 +1,111 @@
+.updates-section {
+  height: 600px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative; /* For arrow positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#updates-scroll {
+  width: 100%; /* Full container width */
+  max-width: 960px; /* Container max width on large screens */
+  overflow-x: auto; /* auto horizontal scroll */
+  overflow-y: hidden; /* Hide vertical scroll */
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */  
+  height: 100%;
+  padding: 0 10px; /* Ensures space for side arrows and full visibility */ /* Important to remove extra space */
+  margin: 0 auto;  
+}
+
+#updates-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Cards */
+.update-card {
+  max-width: 270px;
+  height: 100%;
+  max-height: 90%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 300px; /* Default: 1 card */ /* fixed width */
+}
+
+/* Medium screen (2 cards) */
+@media (min-width: 768px) {
+  .update-card {
+    flex: 0 0 calc((100% / 2) - 10px); /* 2 cards + gap accounted */
+  }
+}
+
+/* Large screen (3 cards) */
+@media (min-width: 992px) {
+  .update-card {
+    flex: 0 0 calc((100% / 3) - 13.33px); /* 3 cards + gap accounted */
+  }
+}
+
+/* Card structure */
+.card {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.updates-carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center; /* Align arrows vertically with scroll area */
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  max-width: 100vw;
+  padding: 20px 0;
+}
+
+/* Left and right arrow buttons */
+.btn-outline-secondary {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Positioning specific to each arrow */
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
