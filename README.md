@@ -1,12 +1,51 @@
-# React + Vite
+# 🌿 THILEO Homepage – Natural Beauty Brand Web Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, high-performance homepage built for **THILEO Royal Co.**, a brand focused on natural cosmetics, beauty services & professional cosmetology training.  
+This project showcases a **scalable frontend architecture** with a refined luxury brand UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Live Demo
+🔗 Coming soon (to be deployed on Hostinger)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 About the Project
+The goal of this project is to build a **trust-driven, user-friendly landing experience** for THILEO that reflects the brand's identity and long-term ecosystem.
+
+### 🔍 Core UX Vision
+- Communicate purity, trust & luxury
+- Present products and services in a premium format
+- Support scalability for upcoming pages:
+  - Bookings
+  - Product purchase
+  - Blogs
+  - Profile & dashboard
+  - Admin panel
+
+---
+
+## 🛠 Tech Stack
+
+| Category      | Technologies |
+|--------------|--------------|
+| Frontend     | React.js, Vite |
+| Styling      | Bootstrap 5, Custom CSS |
+| UI System    | Component-based architecture |
+| Assets       | Optimized imagery & SVG icons |
+| Deployment   | Built for Hostinger (upcoming) |
+
+---
+
+## 📌 Key Features
+
+✔ Component-driven folder structure  
+✔ Fully responsive layout (mobile → desktop)  
+✔ Reusable design tokens & brand colors  
+✔ Fast Vite build + optimized asset delivery  
+✔ Future-ready for API & backend integration  
+
+---
+
+## 📁 Project Structure
+
