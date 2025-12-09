@@ -48,4 +48,31 @@ The goal of this project is to build a **trust-driven, user-friendly landing exp
 ---
 
 ## 📁 Project Structure
+src/
+├── components/ → Reusable UI blocks
+├── pages/ → Page-level sections
+├── assets/ → Images / icons / static files
+├── styles/ → Global & modular CSS
+├── App.jsx → Routing + layout wrapper
+└── main.jsx → App entry point
+
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone this project
+```bash
+git clone https://github.com/MPtechlady/THILEO-Homepage.git
+npm install
+npm run dev
+
+🧩 Future Roadmap
+Stage	Module
+🔜	Product listing page
+🔜	Product detail page
+🔜	Cart + checkout
+🔜	Appointment booking
+🔜	User dashboard
+🔜	Admin panel
 
